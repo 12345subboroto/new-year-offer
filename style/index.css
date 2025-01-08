@@ -7,16 +7,25 @@
   font-variation-settings:
     "wdth" 100;
 }
+*{
+    margin-left:20px;
+    margin-right: 20px;
+    
+}
 .header{
     background: url(../images/Banner\ Image.png);;
     background-repeat: no-repeat;
     background-size: cover;
-    justify-content: center;
-    height: 600px;
     background-position: center;
-    margin-top: 50px;
+    height: 600px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
 
+}
+.header .header-container{
+    width: 685px;
 }
 .header-container{
     color: white;
@@ -30,7 +39,7 @@
 
 }
 .header .header-container-title-two{
-    font-weight: 900;
+    font-weight: 800;
     font-size: 72px;
 }
 /*section one style*/
@@ -47,12 +56,109 @@
 }
 .section-container .section-container-sub-title{
     color:rgba(255, 0, 0, 1) ;
-    
     font-size: 22px;
     font-weight: 500;
+    margin-bottom: 0px;
 }
 .section-container .section-description{
     color: rgba(7, 2, 17, 1);
+    font-size: 48px;
+    font-weight: bold;
+}
+/*section join party*/
+.section-join{
+    background-image: url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+
+}
+.section-join .party{
+   
+}
+.party{
+display: flex;
+}
+
+.party-join .party-title{
+    font-weight: 900;
+    font-size: 64px;
+  color: #ffffff;
+
+}
+.party-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: #ccc6c6;
+}
+.party-join .sub{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*place style*/
+.place{
+    background-color: rgba(255, 0, 0, 0.1);
+    width: 1180px;
+    height: 482px;
+    margin-bottom: 124px;
+}
+.place-content{
+    text-align: center;
+
+  
+}
+.place .place-title{
+    padding-top: 100px;
+}
+.place-title .HTE{
+    color:rgba(7, 2, 17, 1);
+    font-size: 32px;
+    font-weight: 500;
+}
+.place-title{
+    color: rgba(255, 0, 0, 1);
+    font-weight: 500;
+    font-size: 32px;
+}
+.btn{
+    background-color: red;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 16px 32px;
+}
+/*offer style*/
+.offer{
+    display: flex;
+    justify-content: space-between;
+}
+.offer-title{
+    color: rgba(255, 0, 0, 1);
+    font-size: 24px;
+    font-weight: 200;
+}
+.offer-sub-title{
+    color: rgba(7, 2, 17, 1);
+    font-size: 48px;
+    font-weight: 700;
+}
+.offer-discription{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+}
+.happy-title{
+    color: rgba(255, 0, 0, 1);
     font-size: 48px;
     font-weight: bold;
 }
