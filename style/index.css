@@ -162,3 +162,47 @@ display: flex;
     font-size: 48px;
     font-weight: bold;
 }
+/*holidays style*/
+.sale{
+    margin-top: 124px;
+}
+.sale-container{
+    text-align: center;
+}
+.sale-title{
+    color: rgba(7, 2, 17, 1);
+    font-weight: 300;
+    font-size: 24px;
+}
+.sale-sub-title{
+    color: rgba(7, 2, 17, 1);
+    font-size: 72px;
+    font-weight: black;
+}
+.sale-sub-title .day{
+    color: rgba(255, 0, 0, 1);
+    font-size: 72px;
+    font-weight: black;
+}
+.off{
+  color: rgba(7, 2, 17, 1);
+  font-size: 72px;
+  font-weight: black italic;
+
+}
+.sale-description{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: medium;
+    padding: 28px 80px;
+}
+.sale-img{
+    display: flex;
+}
+.sale-img{
+    background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    padding: auto;
+
+}
