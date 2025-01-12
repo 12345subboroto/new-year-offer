@@ -111,7 +111,7 @@ body{
 /*place style*/
 .place{
     background-color: rgba(255, 0, 0, 0.1);
-    height: 480px;
+    height: 482px;
     border-radius: 16px;
 }
 .place-container{
@@ -119,7 +119,8 @@ body{
     height: 272px;
     margin-top: 120px;
     text-align: center;
-    padding: 100px 185px;
+    padding: 100px 185px 110px;
+    letter-spacing: 0%;
 } 
  .place-title{
     color: rgba(255, 0, 0, 1);
@@ -130,6 +131,7 @@ body{
     color: rgba(7, 2, 17, 1);
     font-size: 32px;
     font-weight: 600;
+    line-height: 56px;
 }
 .btn{
     background-color: rgba(255, 0, 0, 1);
@@ -139,56 +141,76 @@ body{
     color: rgba(255, 255, 255, 1);
     font-size: 20px;
     font-weight: bold;
-    margin-bottom: 110px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.btn:hover{
+    background-color: rgb(194, 3, 3);
+    cursor: pointer;
+    color: aqua;
 }
 /*offer style*/
 .offer{
-    margin-top: 130px;
+  margin-top: 120px;
+}
+.offer-container{
+    height: 463px;
     display: flex;
-    justify-content: space-evenly;
-    margin-right: 140px;
+    margin: 0 auto;
+    justify-content: space-around;
     gap: 80px;
     align-items: center;
-    margin-left: 0px;
+   
 }
-.img-style{
+.offer-middle{
     border: 15px solid rgba(255, 0, 0, 1);
     border-radius: 50%;
     padding: 20px;
-}
+} */
 .offer-title{
     color: rgba(255, 0, 0, 1);
     font-weight: 500;
     font-size:24px ;
-}
+} 
 .offer-sub-title{
     color: rgba(7, 2, 17, 1);
     font-size: 48px;
     font-weight: black;
-}
+} 
 .offer-discription{
     color: rgba(7, 2, 17, 0.6);
     font-size: 20px;
     font-weight: 400;
-}
+} 
 .happy-title{
     color: rgba(255, 0, 0, 1);
     font-size: 48px;
     font-weight: 700;
 }
+.offer-title{
+    color: rgba(255, 0, 0, 1);
+    font-size: 24px;
+    font-weight: 500;
+}
 /*holidays style*/
 .holidays{
     background-image: url(../images/Rectangle\ 2.png);
     background-repeat: no-repeat;
-    background-position: bottom;
-    margin-top: 130px;
-    text-align: center;
+    background-position:bottom; 
+    margin-top: 120px;
 
 }
 .sale-container{
-    padding: 0px 226px;
+    margin: 0 auto;
+    padding: 0 266px;
+    height: 260px;
+    text-align: center;
 }
-.sale-sub-title .day{
+.sale-img{
+    display: flex;
+    justify-content: space-between;
+}
+ .sale-sub-title .day{
     color: rgba(255, 0, 0, 1);
     font-size: 72px;
     font-weight: black;
@@ -203,13 +225,10 @@ body{
     color: rgba(7, 2, 17, 0.6);
     font-size: 20px;
     font-weight: 500;
-    padding: 0px 275px;
+    padding: 0px 190px;
 }
-.sale-img{
-    display: flex;
-    align-items: center;
-}
+
 .gift-img{
     display: flex;
     flex-wrap: wrap;
-}
+} 
