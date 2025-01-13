@@ -225,16 +225,14 @@ body{
     color: rgba(7, 2, 17, 0.6);
     font-size: 20px;
     font-weight: 500;
-    padding: 0px 190px;
 }
 /*gift style*/
 .gift{
     margin-top: 120px;
     height: 1133px;
 }
-.gift-container{
-    margin: 0 auto;
-    padding-right: 600px;
+.gift-cotainer{
+   padding-left: 20px;
 }
 .gift-title{
     color: rgba(255, 0, 0, 1);
@@ -254,5 +252,79 @@ body{
 
 .gift-img{
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 } 
+.subscribe{
+    margin-top: 120px;
+    background-color: rgba(255, 0, 0, 0.05);
+    height: 600px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 200px;
+    margin-top: 120px;
+}
+.subscribe-container{
+    max-width: 80%;
+    text-align: center;
+    padding: 150px; 
+}
+.subscribe-title{
+    color: rgba(7, 2, 17, 1);
+    font-size: 48px;
+    font-weight: black;
+}
+.subscribe-description{
+    color: rgba(7, 2, 17, 0.6);
+    font-weight: 400;
+    font-size: 20px;
+}
+.subscribe-button{
+    position: relative;
+    left: -5px;
+}
+.subscribe input[type="text"]{
+    background-color: rgba(255, 255, 255, 1);
+    padding: 15px 150px 15px 25px;
+    color: rgba(7, 2, 17, 0.3);
+    font-weight: 400;
+    font-size: 18px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border: none;
+    outline: 0;
+}
+.subscribe input[type="button"]:hover{
+    background-color:rgb(158, 11, 11) ;
+    cursor: pointer;
+    color: aquamarine;
+}
+.subscribe input[type="text"]::after{
+    color: rgb(228, 57, 14);
+}
+
+.subscribe input[type="button"]{
+    background-color: rgba(255, 0, 0, 1);
+    padding: 15px 40px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 600;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border: none;
+}
+/*footer style*/
+footer{
+    background-color: rgba(7, 2, 17, 1);
+    height: 600px;
+    color: aliceblue;
+    text-align: center;
+}
+.div-1{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
